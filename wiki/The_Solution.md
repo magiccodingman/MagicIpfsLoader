@@ -1,4 +1,4 @@
-### The Solution
+# The Solution
 
 In response to the challenges outlined in "The Problem," the best approach was to consistently load the application through the `index.html` file directly. This method bypasses many of the obstacles that arise when using public IPFS gateways, ensuring reliable and lightweight loading. Although this approach presents its own set of challenges, it offers a far more dependable solution compared to attempting to load the application via the base directory.
 
