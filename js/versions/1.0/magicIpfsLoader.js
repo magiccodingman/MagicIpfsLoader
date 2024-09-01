@@ -457,7 +457,7 @@ function getLocalIpfsUrls(localUrl, cidv0) {
         var v1Url = convertV0ToV1(cidv0);
 
         // Append the extracted part to the provided string
-        myArray.push(`http://${v1Url}${ipfsPart}`);
+        urlArray.push(`http://${v1Url}${ipfsPart}`);
     }
     urlArray.push(`https://webui.ipfs.io/ipfs/${cidv0}`);
     return urlArray;
