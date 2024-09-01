@@ -111,7 +111,5 @@ By combining these technologies—Dexie.js for persistent storage, `untar.js` fo
 
 **Key Benefits:**
 - **Reliable Loading**: By focusing on loading the `index.html` directly, the application is guaranteed to load reliably, even under the constraints of public IPFS gateways.
-- **Efficient Resource Management**: The use of tar files, Brotli compression, and
-
- IndexedDB ensures that the application’s assets are managed efficiently, minimizing load times and bandwidth usage.
+- **Efficient Resource Management**: The use of tar files, Brotli compression, and IndexedDB ensures that the application’s assets are managed efficiently, minimizing load times and bandwidth usage.
 - **Seamless User Experience**: The application operates as if it were running in a traditional web environment, with no visible difference to the user, despite being hosted on IPFS.
